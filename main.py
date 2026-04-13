@@ -1,14 +1,6 @@
 from password_manager import add_login, change_password, encrypt_passwords_in_file
 
-
-def main() -> None:
-    """TODO: Parte 5 - programa principal interactivo."""
-    pass
-
-from password_manager import add_login, change_password, encrypt_passwords_in_file
-
-
-def main() -> None:
+ def main() -> None:
     filename = input("Enter the CSV file name:\n")
 
     # encriptar todas las contraseñas
@@ -62,11 +54,6 @@ def main() -> None:
 
         else:
             print("Invalid option selected!")
-
-
-if __name__ == "__main__":
-    main()
-
 
 if __name__ == "__main__":
     main()
